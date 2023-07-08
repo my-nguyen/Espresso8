@@ -1,0 +1,8 @@
+source: https://github.com/android/testing-samples/tree/main/ui/espresso/BasicSample
+
+ChangeTextBehaviorLocalTest doesn't compile
+
+ChangeTextBehaviorKtTest fails to run with error:
+androidx.test.espresso.base.AssertionErrorHandler$AssertionFailedWithCauseError: 'an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Espresso"' doesn't match the selected view.
+Expected: an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Espresso"
+Got: view.getText() was "Hello Espresso!" transformed text was "Hello Espresso!"
